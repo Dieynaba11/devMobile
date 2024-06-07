@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <title>Application contact</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <h1>Contact téléphonique</h1>
+        </header>
+        <main class="content">
+            <button class="add-button">Ajout</button>
+            <input type="text" id="name" placeholder="Nom" required>
+            <input type="text" id="phone" placeholder="Téléphone" required>
+            <ul id="contact-list" class="contact-list">
+                <li>
+                    <a href="#">
+                        <img src="img/profil.jpeg" alt="photo de profil du contact">
+                        <div class="contact-info">
+                            <h2>Astou</h2>
+                            <p>78 143 65 78</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/profil.jpeg" alt="photo de profil du contact">
+                        <div class="contact-info">
+                            <h2>Fatou</h2>
+                            <p>75 142 56 78</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/profil.jpeg" alt="photo de profil du contact">
+                        <div class="contact-info">
+                            <h2>Lala</h2>
+                            <p>77 647 98 12</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </main>
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

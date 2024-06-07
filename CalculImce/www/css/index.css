@@ -1,0 +1,14 @@
+h1, label, input{
+    text-align: center;
+    width: 100%;
+}
+input, label{
+    display: block;
+    margin-top: 10px;
+    background-color: rgb(244, 192, 192) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+fieldset{
+    margin-bottom: 20px;
+}
